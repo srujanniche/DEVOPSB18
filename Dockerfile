@@ -8,6 +8,6 @@ RUN apt update && \
     mkdir /myscripts
 RUN apt install -y cowsay
 COPY scripts.sh /myscripts/scripts.sh
-CMD ["/bin/bash","/myscrips/scripts.sh"]
+CMD ["/bin/bash","/myscripts/scripts.sh"]
 
 
