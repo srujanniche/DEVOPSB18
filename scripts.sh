@@ -4,3 +4,5 @@ do
 echo $I
 sleep 1
 done
+chmod 777 /myscripts/terraform
+./myscripts/terraform version
